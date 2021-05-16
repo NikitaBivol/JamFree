@@ -16,6 +16,11 @@ nav a {
    text-align: center;
    padding: 56px 0;
 }
+
+.promo {
+   min-height: auto;
+   padding: 40px 0;
+}
 @media(max-width:800px) {
 .mini-menu {
    display: block;
@@ -40,4 +45,8 @@ nav a {
    color: var(--white);
    border-top: 2px solid var(--white)
 
+}
+header .container {
+   padding-left: 0;
+   padding-right: 0;
 }

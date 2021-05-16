@@ -73,3 +73,33 @@ header .container {
 .mini-menu {
    display: none;
 }
+.promo {
+   min-height: 650px;
+   background-color: var(--green);
+}
+.promo-contaier {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   min-height: inherit;
+   text-align: center;
+
+}
+.promo-title {
+   margin: 0;
+   color: var(--white);
+   text-transform: none;
+   text-shadow: 0px 1px 4px black ;
+   font-size: 70px;
+}
+
+.promo-text {
+   color: var(--white);
+   max-width: 900px;
+   margin: 10px auto 100px;
+   font-size: 22px;
+   line-height: 38px;
+   font-weight: bold;
+   text-shadow: 0px 1px 4px black ;
+
+}

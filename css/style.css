@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+html {
+   /* задает основные цвета, размеры и шрифт страницы */
+   --green: rgb(60, 139, 64);
+   --grey: #6e7f8a;
+   --orang: #da781d;
+   --white: #ffffff;
+   --wrapWidth: 1920px;
+   --contWidth: 1200px;
+   --font: 'Montserat', sans-serif;
+}
+body {
+   /* background: var(--green); */
+   font-family: var(--font);
+}
+header {
+   background-color: var(--white);
+   margin: 0;
+   
+}
+main {
+   background-color: var(--green);
+}
+.wrapper {
+   max-width: var(--wrapWidth);
+   margin: 0 auto;
+}
+.container {
+   max-width: var(--contWidth);
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 15px ;
+}
+nav ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+nav a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: var(--grey);
+   display: block;
+   font-weight: bold;
+   padding: 56px 23px;
+   font-size: 18px;
+   transition: .3s;
+}
+nav a:hover {
+   color: var(--white);
+   background: rgba(60, 139, 64, 0.7) ;
+}
+header .container {
+   align-items: center;
+}
+.logo {
+   text-decoration: none;
+   text-transform: none;
+   color: var(--grey);
+   font-weight: bold;
+   font-size: 28px;
+   display: block;
+   padding: 12px 21px;
+   /* border: 5px solid #da781d; */
+   text-shadow: 0px 1px 3px var(--grey) ;
+}
+.mini-menu {
+   display: none;
+}

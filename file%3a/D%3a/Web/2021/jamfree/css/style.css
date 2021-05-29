@@ -16,6 +16,7 @@ html {
 body {
    /* background: var(--green); */
    font-family: var(--font);
+   margin: 0;
 }
 header {
    background-color: var(--white);

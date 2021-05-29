@@ -1,0 +1,34 @@
+Светлый зелёный #a3e1c1
+Red: 163
+Green: 225
+Blue: 193
+
+Светлый серый #60647b
+Red: 96
+Green: 100
+Blue: 123
+
+Темный серый #333643
+Red: 51
+Green: 54
+Blue: 67
+
+Зелёный #2f9a66
+Red: 47
+Green: 154
+Blue: 102
+
+Серый #4d5265
+Red: 77
+Green: 82
+Blue: 101
+
+Оранжевый #ff9a00
+Red: 255
+Green: 154
+Blue: 0
+
+Белый #ffffff
+Red: 255
+Green: 255
+Blue: 255
